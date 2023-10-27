@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collge Registration Form</title>
+    <style>
+        body {
+            background-image: url(smdmk.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>S.M.D.M.College Kallamb, Dist: Osmanabad. Maharashtra.</h1>
+        <h2>Registration Form for New Students..</h2>
+        <div>
+            <p>Required fields are followed by *</p>
+            <p>Name* <input type="text" name="name" id="name" placeholder="Enter Name Here.." required></p>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>Male <input type="radio" name="gender" id="male" required>
+                    Female <input type="radio" name="gender" id="female" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Vaccinated</legend>
+                <p>YES <input type="radio" name="vaccine" id="vaccine" required>
+                    NO <input type="radio" name="vaccine" id="vaccine" required></p>
+            </fieldset>
+            <p>Address <textarea name="Address" id="address" cols="15" rows="5"></textarea></p>
+            <p>Pincode* <input type="number" name="pincode" id="pincode" required></p>
+            <p>Email* <input type="email" name="email" id="email" required></p>
+            <p>Mobile No.*<input type="number" name="number" id="number" required></p>
+            <p>Aadhar No.* <input type="number" name="aadhar" id="aadhar" placeholder="Enter Aadhar No. here.."
+                    required>
+            </p>
+            <br>
+            <hr>
+            <h3>Fill Your Below Information for 11<sup>th</sup> Class Registration..</h3>
+            <p>Board Name* <input type="text" name="board" id="board" placeholder="Enter your board name.." required>
+            </p>
+            <p>School Name* <textarea name="scname" id="scname" cols="15" rows="5" required></textarea></p>
+            <p>Passout Year* <input type="date" name="passyear" id="passyear" placeholder="Enter here.." required></p>
+            <p>10<sup>th</sup> Class Mark* <input type="number" name="mark" id="mark" placeholder="Enter Your mark here"
+                    required></p>
+            <p>Hall Ticket No* <input type="text,number" name="htno" id="htno" required></p>
+            <p>Mother Name* <input type="text" name="mname" id="mname" placeholder="Enter Mother Name.." required></p>
+        </div>
+        <br>
+        <hr>
+
+        <h3>Choose Your Faculty and Faculty Subjects..</h3>
+        <p> Choose Faculty*
+            <select name="Faculty" id="Faculty" required>
+                <option value="">select here..</option>
+                <option value="Art">Art</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Science">Science</option>
+            </select>
+        </p>
+
+        <h4>Select Subjects According To Your Faculty..</h4>
+        <p>Select Only Six Subjects..</p>
+        <fieldset>
+            <legend>For Art*</legend>
+            <input type="checkbox" name="subject1" id="Marathi">Marathi
+            <input type="checkbox" name="subject2" id="Hindi">Hindi
+            <input type="checkbox" name="subject3" id="English">English
+            <input type="checkbox" name="subject4" id="Histroy">Histroy <br><br>
+            <input type="checkbox" name="subject5" id="Geography">Geography
+            <input type="checkbox" name="subject6" id="Sanskrit">Sanskrit
+            <input type="checkbox" name="subject7" id="Sociology">Sociology
+            <input type="checkbox" name="subject8" id="Psychology">Psychology
+        </fieldset>
+        <br>
+        <hr>
+
+        <fieldset>
+            <legend>For Commerce*</legend>
+
+            <input type="checkbox" name="subject1" id="Marathi">Marathi
+            <input type="checkbox" name="subject2" id="Hindi">Hindi
+            <input type="checkbox" name="subject3" id="English">English
+            <input type="checkbox" name="subject4" id="Economics">Economics <br>
+            <input type="checkbox" name="subject5" id="Mathematics">Mathematics
+            <input type="checkbox" name="subject6" id="Accountacy">Accountacy
+            <input type="checkbox" name="subject7" id="Business Studies">Business Studies
+            <input type="checkbox" name="subject8" id="Science">Home Science
+        </fieldset>
+        <br>
+        <hr>
+
+        <fieldset>
+            <legend>For Science*</legend>
+            <input type="checkbox" name="subject1" id="Marathi">Marathi
+            <input type="checkbox" name="subject2" id="Hindi">Hindi
+            <input type="checkbox" name="subject3" id="English">English <br>
+            <input type="checkbox" name="subject4" id="Physics">Physics
+            <input type="checkbox" name="subject5" id="Mathematics">Mathematics
+            <input type="checkbox" name="subject6" id="Chemistry">Chemistry
+            <input type="checkbox" name="subject7" id="Biology">Biology
+            <!-- <input type="checkbox" name="subject8" id="subject8">Home Science  -->
+        </fieldset>
+        <br>
+        <hr>
+
+        <h4>Fees for Registration is 250.00/- </h4>
+        <p>Below is the payment Information, look it and do payemnt..</p><br>
+        <p>Select Card*
+            <select name="Card type" id="Card type" required>
+                <option value="">Select your card..</option>
+                <option value="ATM">ATM</option>
+                <option value="Visa">Visa</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+
+        <p>Card number* <input type="number" name="cardnumber" id="cardnumber" required></p>
+        <p>Expiration Date* <input type="date" name="exdate" id="exdate" required></p>
+        <p>CVV* <input type="password" name="password" id="password" required></p>
+        <input type="submit" value="PAY NOW&SUBMIT.."><br>
+
+        <h6>THANKS FOR REGISTRATION:)</h6>
+        <hr>
+        <hr>
+
+    </form>
+</body>
+
+</html>
